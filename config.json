@@ -1,0 +1,119 @@
+{
+  "assemblies": [
+    {
+      "name": "VectorBase-51_AgambiaePEST_Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "VectorBase-51_AgambiaePEST_Genome-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "VectorBase-51_AgambiaePEST_Genome.fasta"
+          },
+          "faiLocation": {
+            "uri": "VectorBase-51_AgambiaePEST_Genome.fasta.fai"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "VectorBase-51_AgambiaePEST_AnnotatedCDSs",
+      "name": "VectorBase-51_AgambiaePEST_AnnotatedCDSs",
+      "category": [
+        "extra"
+      ],
+      "assemblyNames": [
+        "VectorBase-51_AgambiaePEST_Genome"
+      ],
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedCDSs.fasta"
+        },
+        "faiLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedCDSs.fasta.fai"
+        }
+      }
+    },
+    {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "VectorBase-51_AgambiaePEST_AnnotatedProteins",
+      "name": "VectorBase-51_AgambiaePEST_AnnotatedProteins",
+      "category": [
+        "extra"
+      ],
+      "assemblyNames": [
+        "VectorBase-51_AgambiaePEST_Genome"
+      ],
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedProteins.fasta"
+        },
+        "faiLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedProteins.fasta.fai"
+        }
+      }
+    },
+    {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "VectorBase-51_AgambiaePEST_AnnotatedTranscripts",
+      "name": "VectorBase-51_AgambiaePEST_AnnotatedTranscripts",
+      "category": [
+        "extra"
+      ],
+      "assemblyNames": [
+        "VectorBase-51_AgambiaePEST_Genome"
+      ],
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedTranscripts.fasta"
+        },
+        "faiLocation": {
+          "uri": "VectorBase-51_AgambiaePEST_AnnotatedTranscripts.fasta.fai"
+        }
+      }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "VBS04792-4651STDY7017928.fixmate",
+      "name": "VBS04792-4651STDY7017928.fixmate",
+      "category": [
+        "extra"
+      ],
+      "assemblyNames": [
+        "VectorBase-51_AgambiaePEST_Genome"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "VBS04792-4651STDY7017928.fixmate.bam"
+        },
+        "index": {
+          "location": {
+            "uri": "VBS04792-4651STDY7017928.fixmate.bam.bai"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "VectorBase-51_AgambiaePEST_Genome.fasta"
+          },
+          "faiLocation": {
+            "uri": "VectorBase-51_AgambiaePEST_Genome.fasta.fai"
+          }
+        }
+      }
+    }
+  ]
+}
